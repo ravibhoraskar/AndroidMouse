@@ -6,3 +6,8 @@ do
 	
 	xdotool mousemove ${arr[0]} ${arr[1]}
 done
+
+while [true]
+do
+
+done
