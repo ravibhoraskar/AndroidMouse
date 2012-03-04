@@ -1,1 +1,10 @@
-piyush kumar
+Use your android phone as a videogame like controller, to control the mouse pointer on your screen. Tilt forward to move up, backward to move down, left to move left and so on. Click using the buttons on the phone screen. 
+
+Instructions
+1. The projects contains two parts, the part to run on your android, and the part to run on your comp. 
+2. AndroidMouse is the Android Project. Import it in eclipse with the standard Android SDK
+3. Connect your phone to the computer in debug mode, and install the app on the phone
+4. You must have android debugger (adb) and xdotool installed. Get adb from the android developer site (it comes with platform tools), and xdotool from the standard ubuntu repository (sudo apt-get install xdotool)
+5. Run the following command on your shell '/path/to/platform-tools/adb logcat | ./movemouse.py'
+6. Run the AndroidMouse app on your phone. 
+7. See the magic!
